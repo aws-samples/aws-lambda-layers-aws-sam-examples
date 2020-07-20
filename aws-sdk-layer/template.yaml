@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: AWS SDK Layer
+
+Resources:
+  SDKlayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: AWS-SDK-v2_713_0
+      Description: AWS SDK 2.713.0
+      ContentUri: ./layer
+      CompatibleRuntimes:
+        - nodejs12.x
+      LicenseInfo: 'Available under the MIT-0 license.'
+      RetentionPolicy: Retain
+    
