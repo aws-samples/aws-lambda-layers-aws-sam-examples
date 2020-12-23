@@ -2,7 +2,7 @@
 
 This example application shows how to build AWS Lambda Layers using Node.js and the AWS Serverless Application Model.
 
-To learn more about how this sample works, see AWS Compute Blog post: TBD
+To learn more about how this sample works, see AWS Compute Blog post: [https://aws.amazon.com/blogs/compute/using-lambda-layers-to-simplify-your-development-process/](https://aws.amazon.com/blogs/compute/using-lambda-layers-to-simplify-your-development-process/)
 
 Important: this application uses various AWS services and there are costs associated with these services after the Free Tier usage - please see the [AWS Pricing page](https://aws.amazon.com/pricing/) for details. You are responsible for any AWS costs incurred. No warranty is implied in this example.
 
@@ -18,9 +18,6 @@ Important: this application uses various AWS services and there are costs associ
 * AWS CLI already configured with Administrator permission
 * [AWS SAM CLI installed](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html) - minimum version 0.48.
 * [NodeJS 12.x installed](https://nodejs.org/en/download/)
-* [Vue.js and Vue CLI installed](https://vuejs.org/v2/guide/installation.html)
-* [Google Maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
-* Sign up for an [Auth0 account](https://auth0.com/)
 
 ## Installation Instructions
 
