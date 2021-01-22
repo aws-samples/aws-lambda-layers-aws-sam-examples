@@ -23,26 +23,28 @@ Important: this application uses various AWS services and there are costs associ
 
 1. [Create an AWS account](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html) if you do not already have one and login.
 
-1. Clone the repo onto your local development machine using `git clone`.
+2. Clone the repo onto your local development machine using `git clone`.
 
-1. Change into the repo's directory.
+3. Change into the repo's directory.
 
-1. Run:
+4. Run:
 
 ```
 npm install
 mkdir ./layer/nodejs –p
 mv ./node_modules ./layer/nodejs
 ```
-1.	Next, deploy the SAM template to create the layer:
+5.	Next, deploy the SAM template to create the layer:
+```
 sam deploy --guided
+```
 
 When prompted for parameters, enter:
-- Stack Name: AWS SDK layer
+- Stack Name: aws-sdk-layer
 - AWS Region: your preferred AWS Region (e.g. us-east-1)
 - Accept all other defaults.
 
-1.	After the deployment completes, the new Lambda layer is available to use. Run this command to see the available layers:
+6.	After the deployment completes, the new Lambda layer is available to use. Run this command to see the available layers:
 
 ```
 aws lambda list-layers
